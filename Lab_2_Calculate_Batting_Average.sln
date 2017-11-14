@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_2_Calculate_Batting_Average", "Lab_2_Calculate_Batting_Average.csproj", "{A2FFD14E-A153-470C-A730-0F5CF9DA6C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FFD14E-A153-470C-A730-0F5CF9DA6C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FFD14E-A153-470C-A730-0F5CF9DA6C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FFD14E-A153-470C-A730-0F5CF9DA6C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FFD14E-A153-470C-A730-0F5CF9DA6C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D66E3DF2-B649-4434-8163-3C5D39616589}
+	EndGlobalSection
+EndGlobal
