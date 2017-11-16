@@ -1,0 +1,7 @@
+C:\projects\SD-104-CSharp\HW2\bin\Debug\HW2.exe.config
+C:\projects\SD-104-CSharp\HW2\bin\Debug\HW2.exe
+C:\projects\SD-104-CSharp\HW2\bin\Debug\HW2.pdb
+C:\projects\SD-104-CSharp\HW2\obj\Debug\HW2.csprojResolveAssemblyReference.cache
+C:\projects\SD-104-CSharp\HW2\obj\Debug\HW2.csproj.CoreCompileInputs.cache
+C:\projects\SD-104-CSharp\HW2\obj\Debug\HW2.exe
+C:\projects\SD-104-CSharp\HW2\obj\Debug\HW2.pdb
