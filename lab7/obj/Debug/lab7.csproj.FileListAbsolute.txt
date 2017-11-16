@@ -1,0 +1,7 @@
+C:\projects\SD-104-CSharp\lab7\bin\Debug\lab7.exe.config
+C:\projects\SD-104-CSharp\lab7\bin\Debug\lab7.exe
+C:\projects\SD-104-CSharp\lab7\bin\Debug\lab7.pdb
+C:\projects\SD-104-CSharp\lab7\obj\Debug\lab7.csprojResolveAssemblyReference.cache
+C:\projects\SD-104-CSharp\lab7\obj\Debug\lab7.csproj.CoreCompileInputs.cache
+C:\projects\SD-104-CSharp\lab7\obj\Debug\lab7.exe
+C:\projects\SD-104-CSharp\lab7\obj\Debug\lab7.pdb
