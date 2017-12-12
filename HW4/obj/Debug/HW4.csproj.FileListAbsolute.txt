@@ -1,0 +1,7 @@
+C:\projects\SD-104-CSharp\HW4\bin\Debug\HW4.exe.config
+C:\projects\SD-104-CSharp\HW4\bin\Debug\HW4.exe
+C:\projects\SD-104-CSharp\HW4\bin\Debug\HW4.pdb
+C:\projects\SD-104-CSharp\HW4\obj\Debug\HW4.csprojResolveAssemblyReference.cache
+C:\projects\SD-104-CSharp\HW4\obj\Debug\HW4.csproj.CoreCompileInputs.cache
+C:\projects\SD-104-CSharp\HW4\obj\Debug\HW4.exe
+C:\projects\SD-104-CSharp\HW4\obj\Debug\HW4.pdb
