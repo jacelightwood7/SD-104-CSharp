@@ -1,0 +1,6 @@
+C:\projects\SD-104-CSharp\HW3\obj\Debug\Files-IO.csproj.CoreCompileInputs.cache
+C:\projects\SD-104-CSharp\HW3\bin\Debug\Files-IO.exe.config
+C:\projects\SD-104-CSharp\HW3\bin\Debug\Files-IO.exe
+C:\projects\SD-104-CSharp\HW3\bin\Debug\Files-IO.pdb
+C:\projects\SD-104-CSharp\HW3\obj\Debug\Files-IO.exe
+C:\projects\SD-104-CSharp\HW3\obj\Debug\Files-IO.pdb
