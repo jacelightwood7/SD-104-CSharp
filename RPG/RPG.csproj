@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D81A570-F9EE-470E-B260-98E74E3C553D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RPG</RootNamespace>
+    <AssemblyName>RPG</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Character.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemyGenerator.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\agent smith.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\beagle-boys.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\beetlejuice.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Buffalo_Bill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Cersei Lannister.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\click here.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Commodus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\cyrus the virus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\darrel hannah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\darth vader.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\darth vader2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Dr-claw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Emperor_Palpatine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\gannon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\harley_quinn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Heisenberg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\jedi-hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\jelly bean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\jigsaw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\joker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Kefka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\keyser_soze.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\king koopa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\knight-hit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\lecter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\longshanks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\mad dog tannen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\moriarty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\mumm-ra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\nihilists.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\old biff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\padewan-hit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\paladin-hit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Pennywise-the-clown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\pinky and brain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\regina_george.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\Saruman-the-white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\sauron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\scar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\shredder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\skeletor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\skynet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\slow mobiusjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\squire-hit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\T-1000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\tammy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\the butcher.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\troll.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\umbridge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\ursula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\voldemort.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\white_wizard-hit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\white_wizard-ht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\wicked_witch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\winner.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\wizard-hit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\wizard-hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\Resources\young biff.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
